@@ -124,6 +124,16 @@ comments: true
     let booleans = Array(repeating: Bool(), count: 5)
     ```
 
+=== "Rust"
+
+    ```rust title=""
+    /* 使用多种「基本数据类型」来初始化「数组」 */
+    let numbers: [i32; 5];
+    let decimals: [f32; 5];
+    let characters: [char; 5];
+    let booleans: [bool; 5];
+    ```
+
 ## 计算机内存
 
 在计算机中，内存和硬盘是两种主要的存储硬件设备。「硬盘」主要用于长期存储数据，容量较大（通常可达到 TB 级别）、速度较慢。「内存」用于运行程序时暂存数据，速度更快，但容量较小（通常为 GB 级别）。
